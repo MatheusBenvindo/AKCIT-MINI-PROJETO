@@ -1,8 +1,8 @@
-# SkyMetrics Backlog
+# Backlog do SkyMetrics
 
-## Future Features
-1. **5-Day Forecast:** Allow users to see the weather for the upcoming days.
-2. **Favorite Cities:** Save a list of favorite cities to query them faster without typing the full name.
-3. **Colorized Output:** Use libraries like `rich` or `colorama` to colorize the terminal output based on conditions (e.g., blue for cold, red for hot).
-4. **Different APIs:** Add support for other weather APIs as fallback.
-5. **Geolocation:** Automatically detect the user's city based on their IP address.
+## Funcionalidades Futuras
+1. **Previsão de 5 Dias:** Permitir que os usuários vejam o clima para os próximos dias.
+2. **Cidades Favoritas:** Salvar uma lista de cidades favoritas para consultá-las mais rapidamente sem precisar digitar o nome completo.
+3. **Múltiplas APIs:** Adicionar suporte a outras APIs de clima como alternativa (fallback).
+4. **Geolocalização:** Detectar automaticamente a cidade do usuário com base no endereço de IP.
+5. **Histórico de Buscas:** Manter um registro (log) local das últimas cidades pesquisadas para fácil acesso.
