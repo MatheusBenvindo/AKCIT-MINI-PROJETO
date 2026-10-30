@@ -1,3 +1,12 @@
+<!-- course-navigation:start -->
+<p>
+  <a href="https://github.com/MatheusBenvindo/MatheusBenvindo/blob/main/CURSOS.md#engenharia-e-akcit"><img alt="Índice de materiais" src="https://img.shields.io/badge/MATERIAIS-Engenharia%20e%20AKCIT-005DAA?style=flat-square" /></a>
+</p>
+
+[← Catálogo de cursos e projetos](https://github.com/MatheusBenvindo/MatheusBenvindo/blob/main/CURSOS.md) · [Perfil](https://github.com/MatheusBenvindo)
+
+<!-- course-navigation:end -->
+
 # SkyMetrics
 
 O SkyMetrics é uma ferramenta profissional de interface de linha de comando (CLI) simples para consultar o clima atual de uma cidade usando a API do OpenWeatherMap. Ele busca automaticamente a temperatura, converte de Kelvin para Celsius e Fahrenheit, e exibe a umidade e a condição climática em uma interface visual bonita e colorida.
@@ -127,3 +136,15 @@ Consulte o arquivo `docs/backlog.md` para ver ideias de futuras melhorias.
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+
+## Navegação dos materiais
+
+| Pasta ou arquivo | Acesso |
+|---|---|
+| docs | [Abrir pasta](./docs) |
+| main.py | [Abrir arquivo](./main.py) |
+| requirements.txt | [Abrir arquivo](./requirements.txt) |
+| src | [Abrir pasta](./src) |
+| tests | [Abrir pasta](./tests) |
+
