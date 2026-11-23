@@ -1,12 +1,3 @@
-<!-- course-navigation:start -->
-<p>
-  <a href="https://github.com/MatheusBenvindo/MatheusBenvindo/blob/main/CURSOS.md#engenharia-e-akcit"><img alt="Índice de materiais" src="https://img.shields.io/badge/MATERIAIS-Engenharia%20e%20AKCIT-005DAA?style=flat-square" /></a>
-</p>
-
-[← Catálogo de cursos e projetos](https://github.com/MatheusBenvindo/MatheusBenvindo/blob/main/CURSOS.md) · [Perfil](https://github.com/MatheusBenvindo)
-
-<!-- course-navigation:end -->
-
 # SkyMetrics
 
 O SkyMetrics é uma ferramenta profissional de interface de linha de comando (CLI) simples para consultar o clima atual de uma cidade usando a API do OpenWeatherMap. Ele busca automaticamente a temperatura, converte de Kelvin para Celsius e Fahrenheit, e exibe a umidade e a condição climática em uma interface visual bonita e colorida.
@@ -49,7 +40,7 @@ skymetrics/
 
 ## Configuração e Segurança de Credenciais
 
-> ⚠️ **Importante:** Nunca exponha sua chave de API diretamente no código-fonte ou a faça commit no repositório. Utilize **variáveis de ambiente** para proteger seus secrets.
+>  **Importante:** Nunca exponha sua chave de API diretamente no código-fonte ou a faça commit no repositório. Utilize **variáveis de ambiente** para proteger seus secrets.
 
 Configure a sua chave de API do OpenWeatherMap como uma variável de ambiente **antes** de executar o projeto:
 
@@ -82,7 +73,7 @@ python main.py "São Paulo"
 ```text
 ╭───────────────── SkyMetrics: São Paulo, BR ──────────────────╮
 │                                                              │
-│  Condition    ☀️ Clear sky                                    │
+│  Condition     Clear sky                                    │
 │  Temperature  28.5 °C / 83.3 °F                              │
 │  Humidity     45%                                            │
 │                                                              │
@@ -111,14 +102,14 @@ As dependências do projeto estão listadas em `requirements.txt`:
 
 O desenvolvimento do SkyMetrics contou com o suporte de Inteligência Artificial Generativa (Google Gemini) em três frentes principais:
 
-### 🏗️ Estruturação da Arquitetura
+### Estruturação da Arquitetura
 A IA auxiliou na definição da **arquitetura modular** do projeto, propondo a separação clara entre as responsabilidades:
 - `src/weather_api.py` — encapsula toda a lógica de comunicação com a API externa (requisições HTTP, tratamento de erros de rede e autenticação).
 - `src/conversions.py` — centraliza a lógica matemática de conversão de unidades (Kelvin → Celsius → Fahrenheit), mantendo-a isolada, pura e facilmente testável.
 
 Essa separação garante baixo acoplamento, facilidade de manutenção e aderência ao Princípio da Responsabilidade Única (SRP).
 
-### 🧪 Desenvolvimento de Testes
+### Desenvolvimento de Testes
 A IA colaborou na **criação da suíte de testes unitários** (`tests/test_conversions.py`), cobrindo cenários como:
 - Conversão de temperatura zero absoluto (0 K).
 - Validação de valores decimais com precisão de ponto flutuante.
@@ -126,7 +117,7 @@ A IA colaborou na **criação da suíte de testes unitários** (`tests/test_conv
 
 Os testes foram escritos com `pytest` e seguem o padrão **Arrange-Act-Assert (AAA)**, garantindo legibilidade e rastreabilidade dos casos de uso validados.
 
-### 📝 Documentação e Backlog
+### Documentação e Backlog
 A IA auxiliou na **redação técnica** deste README e na **organização do backlog** (`docs/backlog.md`), estruturando as histórias de usuário por prioridade e descrevendo critérios de aceite claros para cada funcionalidade futura planejada.
 
 ## Backlog
@@ -137,14 +128,6 @@ Consulte o arquivo `docs/backlog.md` para ver ideias de futuras melhorias.
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
+---
 
-## Navegação dos materiais
-
-| Pasta ou arquivo | Acesso |
-|---|---|
-| docs | [Abrir pasta](./docs) |
-| main.py | [Abrir arquivo](./main.py) |
-| requirements.txt | [Abrir arquivo](./requirements.txt) |
-| src | [Abrir pasta](./src) |
-| tests | [Abrir pasta](./tests) |
-
+Faz parte do [índice de materiais e projetos](https://github.com/MatheusBenvindo/MatheusBenvindo/blob/main/CURSOS.md#engenharia-e-akcit) de Matheus Ribeiro.
